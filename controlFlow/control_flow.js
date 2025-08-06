@@ -46,3 +46,21 @@ console.log("User Category:", userCategory);
 let isAuthenticated = false;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+
+
+let role = "Non-Subscriber"; // You can change this to test other roles
+
+// Convert role to lowercase for case-insensitive comparison
+role = role.toLowerCase();
+
+if (role === "employee") {
+  console.log("Access granted: You are eligible for full 'Dietary Services'.");
+} else if (role === "enrolled member") {
+  console.log("Access granted: You are eligible for 'Dietary Services' and one-on-one interaction with a dietician.");
+} else if (role === "subscriber") {
+  console.log("Access granted: You have partial access to 'Dietary Services'.");
+} else if (role === "non-subscriber") {
+  console.log("Access denied: Please enroll or subscribe to avail 'Dietary Services'.");
+} else {
+  console.log("Invalid role: Please provide a valid role (Employee, Enrolled Member, Subscriber, Non-Subscriber).");
+}
