@@ -1,0 +1,17 @@
+
+{
+  "articles": [
+    {
+      "title": "Tech Innovation in 2025",
+      "description": "New breakthroughs in AI and quantum computing are reshaping industries.",
+      "author": "Jane Doe",
+      "published_date": "2025-11-14"
+    },
+    {
+      "title": "Global Climate Summit",
+      "description": "World leaders discuss urgent measures to combat climate change.",
+      "author": "John Smith",
+      "published_date": "2025-11-13"
+    }
+  ]
+}
